@@ -1,0 +1,10 @@
+{
+  "name": "room-with-man-2.0",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

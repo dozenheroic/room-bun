@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Room TS</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+    .user { display: flex; align-items: center; gap: 8px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .online { background-color: green; }
+    .busy { background-color: red; }
+    .away { background-color: orange; }
+    #chat { border:1px solid #ccc; height:200px; overflow:auto; padding: 4px; margin-bottom: 4px; }
+    #typing { font-style: italic; color: #555; margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+  <h2>Чат-комната</h2>
+
+  <input id="name" placeholder="Имя" />
+  <input id="room" placeholder="Комната" />
+  <button id="joinBtn">Войти</button>
+
+  <hr />
+
+  <select id="status">
+    <option>Онлайн</option>
+    <option>Занят</option>
+    <option>Отошёл</option>
+  </select>
+
+  <h3>Участники</h3>
+  <ul id="users"></ul>
+
+  <div id="onlineCount"></div>
+  <div id="typing"></div>
+
+  <h3>Сообщения</h3>
+  <div id="chat"></div>
+
+  <input id="msg" placeholder="Сообщение" />
+  <button id="sendBtn">Отправить</button>
+
+  <script src="/main.js"></script>
+</body>
+</html>
