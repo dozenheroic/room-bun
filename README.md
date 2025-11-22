@@ -1,15 +1,14 @@
 # room-with-man-2.0
 
-To install dependencies:
-
+Для установки зависимостей:
 ```bash
 bun install
 ```
 
-To run:
+Для запуска:
 
 ```bash
 bun run 
 ```
 
-This project was created using `bun init` in bun v1.3.2. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+bun v1.3.2. [Bun](https://bun.com)
